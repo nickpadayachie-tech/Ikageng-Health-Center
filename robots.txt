@@ -1,0 +1,10 @@
+# Ikageng Health Centre
+# https://ikagenghealthcenter.co.za/
+
+User-agent: *
+Allow: /
+
+# The error page has no value in search results.
+Disallow: /404.html
+
+Sitemap: https://ikagenghealthcenter.co.za/sitemap.xml
