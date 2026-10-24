@@ -145,7 +145,9 @@
     // Dismiss when a nav link is chosen
     Array.prototype.forEach.call(nav.querySelectorAll('a'), function (link) {
       link.addEventListener('click', function () {
-        closeMenu(false);
+        window.setTimeout(function () {
+          closeMenu(false);
+        }, 0);
       });
     });
 
