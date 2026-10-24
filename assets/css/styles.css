@@ -655,8 +655,7 @@ code {
   top: 0;
   z-index: 100;
   border-bottom: 1px solid var(--line);
-  background: rgb(255 255 255 / 0.96);
-  backdrop-filter: saturate(160%) blur(8px);
+  background: rgb(255 255 255 / 0.98);
   transition: box-shadow var(--t-base) var(--ease);
 }
 
@@ -2261,6 +2260,11 @@ code {
 @media (min-width: 960px) {
   .nav-toggle {
     display: none;
+  }
+
+  .site-header {
+    background: rgb(255 255 255 / 0.96);
+    backdrop-filter: saturate(160%) blur(8px);
   }
 
   .grid--fixed-3 {

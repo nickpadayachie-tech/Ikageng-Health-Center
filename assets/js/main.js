@@ -1,4 +1,4 @@
-﻿/* ==========================================================================
+/* ==========================================================================
    Ikageng Health Centre - site behaviour
    Vanilla JavaScript. No dependencies. All primary content works without JS.
    ========================================================================== */
@@ -482,7 +482,7 @@
           recipient +
           '">' +
           recipient +
-          '</a> or call <a href="tel:+27675752528">067 575 2528</a>.';
+          '</a>, call <a href="tel:+27675752528">067 575 2528</a> or landline <a href="tel:+27182950174">018 295 0174</a>.';
         status.className = 'form-status form-status--info';
       }
 
