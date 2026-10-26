@@ -847,8 +847,8 @@ code {
 .hero::before {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(rgb(255 255 255 / 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgb(255 255 255 / 0.055) 1px, transparent 1px);
+  background-image: linear-gradient(rgb(255 255 255 / 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.12) 1px, transparent 1px);
   background-size: 44px 44px;
   content: "";
   pointer-events: none;
@@ -2191,6 +2191,25 @@ code {
   transform: none;
 }
 
+/* Profile photo used on the practitioner section. */
+.profile-photo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin-bottom: var(--sp-5);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--sh-md);
+  border: 3px solid var(--surface, #fff);
+}
+
+@media (min-width: 768px) {
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 /* --------------------------------------------------------------------------
    23. Breakpoints
    -------------------------------------------------------------------------- */
@@ -2362,7 +2381,8 @@ code {
 
   .whatsapp-float::before {
     animation: none;
-    background-image: none;
+  background-image: linear-gradient(rgb(255 255 255 / 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.055) 1px, transparent 1px);
   }
 }
 
