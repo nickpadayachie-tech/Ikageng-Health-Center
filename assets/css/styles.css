@@ -2201,7 +2201,7 @@ code {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: var(--sh-md);
-  border: 3px solid var(--surface, #fff);
+  border: 4px solid #9ec5fe;
 }
 
 @media (min-width: 768px) {
